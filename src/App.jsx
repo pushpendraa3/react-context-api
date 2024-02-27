@@ -1,11 +1,12 @@
 import React from 'react'
+import UserContextProvider from './context/UserContextProvider'
 
 
 const App = () => {
   return (
-    <div>
-      <h1>Hello world</h1>
-    </div>
+    <UserContextProvider>
+      
+    </UserContextProvider>
   )
 }
 
