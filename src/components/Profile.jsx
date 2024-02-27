@@ -7,9 +7,9 @@ const Profile = () => {
   if(!user ) return <h1>Please Login</h1>
 
   return (
-    <div>
+    <h1>
       Welcome {user.userName}
-    </div>
+    </h1>
   )
 }
 
